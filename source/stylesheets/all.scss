@@ -1,5 +1,24 @@
 #top {
   background-color: #999999;
+
+  .logos{
+    #acs{
+      float: right;
+      margin-right: 50px;
+    }
+
+    #sermac {
+      margin-left: 50px;
+    }
+  }
+}
+
+.alert
+{
+  color: #fff;
+  text-align: center;
+  margin: 25px;
+  font-size: .9em;
 }
 
 /*Navigation*/
@@ -8,11 +27,21 @@
 
 a {
   text-decoration: none;
+  color: #000;
+  font-weight: bolder;
+  font-size: 1.5em;
+  padding-right: 45px;
+
   
+}
+ul {
+  text-align: center;
+
 }
 
 li {
   display: inline-block;
+
 }
 
 }
@@ -21,4 +50,34 @@ li {
 .banner {
 background-image: url('../images/banner.png');
 height: 350px;
+}
+
+
+/*bottom divs*/
+
+.one {
+  width: 33%;
+  margin: 0;
+  display: inline-block;
+  float: left;
+
+}
+
+.second {
+  width: 33%;
+  float: right;
+
+  
+
+  img {
+    max-width: 350px;
+  }
+}
+
+.third {
+  width: 33%;
+  display: inline-block;
+  float: right;
+
+
 }
