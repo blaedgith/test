@@ -1,14 +1,22 @@
+$gray-color: #999999;
+$font: 'Oswald', sans-serif;
+
+body {
+  font-family: $font;
+}
+
 #top {
-  background-color: #999999;
+  background-color: $gray-color;
 
   .logos{
     #acs{
       float: right;
-      margin-right: 50px;
+      margin-right: 90px;
     }
 
     #sermac {
-      margin-left: 50px;
+
+      margin-left: 90px;
     }
   }
 }
@@ -18,29 +26,42 @@
   color: #fff;
   text-align: center;
   margin: 25px;
+  width: 900px;
+  margin-bottom: 0;
+  margin-left: 200px;
   font-size: .9em;
+  h1{
+    margin-bottom: 0;
+  }
 }
 
 /*Navigation*/
 
 #navbar {
+  height: 40px;
+  padding-top: 0;
+  padding-bottom: 5px;
+
 
 a {
   text-decoration: none;
   color: #000;
   font-weight: bolder;
-  font-size: 1.5em;
-  padding-right: 45px;
+  font-size: 30px;
+  padding: 0 30px 0 30px;
 
   
 }
 ul {
   text-align: center;
+  margin: 0;
+  
 
 }
 
 li {
   display: inline-block;
+
 
 }
 
@@ -57,20 +78,34 @@ height: 350px;
 
 .one {
   width: 33%;
+  height: 400px;
   margin: 0;
   display: inline-block;
   float: left;
 
+  .keynote p{
+    width: 90px;
+    float: right;
+  }
+
+  .keynote img {
+    float: left;
+  }
+
 }
 
 .second {
+  padding-top: 25px;
   width: 33%;
+  height: 545px;
   float: right;
-
+  box-shadow: inset 30px 0 90px -30px #ccc,inset -30px 0 90px -30px #ccc;
+  
   
 
   img {
     max-width: 350px;
+    padding: 20px;
   }
 }
 
@@ -79,5 +114,53 @@ height: 350px;
   display: inline-block;
   float: right;
 
+  .twitter-timeline{
+    height: 400px;
+  }
+
+  #twitter {
+    h1{
+    padding: 0;
+    margin: 0;
+    width: 190px;
+    margin-left: 0;
+    font-size: 40px;
+  }
+    img{
+      width: 30px;
+      display: inline-block;
+      vertical-align: middle;
+
+    }
+  }
+
+
 
 }
+
+#bottom {
+
+  background-color: $gray-color;
+  clear: both;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  margin-bottom: 0;
+
+
+  a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bolder;
+    padding-left: 30px;
+  }
+
+  li {
+    display: inline-block;
+  }
+
+}
+
+
+
